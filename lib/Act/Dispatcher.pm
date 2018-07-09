@@ -1,7 +1,7 @@
 use strict;
 package Act::Dispatcher;
 
-use Apache::Constants qw(:common);
+use Act::Constants qw(:common);
 use Apache::Cookie ();
 use Apache::Request;
 use DBI;
@@ -146,7 +146,7 @@ sub _dispatch
     $r->handler("perl-script");
     $r->push_handlers(PerlHandler => $handler);
     return OK;
-}    
+}
 
 # response handler - it all starts here.
 sub handler

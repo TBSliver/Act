@@ -1,6 +1,6 @@
 package Act::Handler::User::Rights;
 use strict;
-use Apache::Constants qw(NOT_FOUND);
+use Act::Constants qw(NOT_FOUND);
 
 use Act::Config;
 use Act::Template::HTML;

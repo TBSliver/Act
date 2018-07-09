@@ -1,6 +1,6 @@
 package Act::Handler::User::UpdateMyTalks;
 use strict;
-use Apache::Constants qw( HTTP_NO_CONTENT );
+use Act::Constants qw( HTTP_NO_CONTENT );
 
 use Act::Talk;
 use Act::User;

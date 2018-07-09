@@ -2,7 +2,7 @@ package Act::Auth;
 
 use strict;
 use Apache::AuthCookie;
-use Apache::Constants qw(OK);
+use Act::Constants qw(OK);
 use Digest::MD5 ();
 
 use Act::Config;

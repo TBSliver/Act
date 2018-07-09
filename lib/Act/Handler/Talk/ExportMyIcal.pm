@@ -1,7 +1,7 @@
 package Act::Handler::Talk::ExportMyIcal;
 use strict;
 
-use Apache::Constants qw(FORBIDDEN);
+use Act::Constants qw(FORBIDDEN);
 
 use Act::Config;
 use Act::Event;

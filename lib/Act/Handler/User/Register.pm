@@ -9,7 +9,7 @@ use Act::TwoStep;
 use Act::User;
 use Act::Util;
 
-use Apache::Constants qw(FORBIDDEN);
+use Act::Constants qw(FORBIDDEN);
 use DateTime;
 use DateTime::Format::Pg;
 

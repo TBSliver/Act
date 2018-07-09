@@ -1,7 +1,7 @@
 package Act::Handler::Talk::Import;
 use strict;
 
-use Apache::Constants qw(NOT_FOUND);
+use Act::Constants qw(NOT_FOUND);
 use DateTime;
 use Data::ICal;
 use Data::ICal::DateTime;

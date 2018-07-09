@@ -2,7 +2,7 @@ use strict;
 use utf8;
 package Act::Util;
 
-use Apache::Constants qw(M_GET REDIRECT);
+use Act::Constants qw(M_GET REDIRECT);
 use Apache::AuthCookie;
 use DateTime::Format::Pg;
 use DBI;

@@ -1,7 +1,7 @@
 use strict;
 package Act::Handler::News::Admin;
 
-use Apache::Constants qw(NOT_FOUND);
+use Act::Constants qw(NOT_FOUND);
 
 use Act::Config;
 use Act::News;

@@ -1,7 +1,7 @@
 package Act::Handler::User::Export;
 use strict;
 
-use Apache::Constants qw(NOT_FOUND);
+use Act::Constants qw(NOT_FOUND);
 use Text::xSV;
 
 use Act::Config;
